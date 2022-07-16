@@ -5,32 +5,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="refresh" content="30" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SEITA</title>
-    <link rel="icon" type="image/x-icon" href="imagens/icon.png" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>S.E.I&T.</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png" />
+    <link rel="stylesheet" href="./styleSite1.css" />
+    <link rel="stylesheet" href="./responsiveSite1.css" />
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="./imagens/Seita_transparenteHeader.png" alt="logo" />
+            <img src="./Seita.gif" alt="logo" />
             <div class="menu-section">
                 <div class="container-menu">
-                    <nav >
+                    <input type="checkbox" id="menuSuspenso">
+                    <label class="menuSpan" for="menuSuspenso">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav>
                         <ul class="menu">
-                            <li >
+                            <li>
                                 <a href="#">Home</a>
                             </li>
-                            <li >
+                            <li>
                                 <a href="#">Artigos</a>
                             </li>
-                            <li >
+                            <li>
                                 <a href="#">Contato</a>
                             </li>
-                            <li >
-                                <a href="#">Projetos</a>
+                            <li>
+                                <a href="./site2.html">MarketPlace</a>
                             </li>
                         </ul>
                     </nav>
@@ -49,13 +56,13 @@
                     <input type="submit" value="Enviar" />
                 </form>
             </div>
-            <img src="./imagens/imagesInvestor.png" alt="" />
+            <img src="./contentSEiT.gif" alt="gif da logo da SEIT" />
         </div>
     </main>
     <section class="cards">
         <div class="card">
             <div class="image">
-                <img src="./imagens/cardsImage.png" alt="foto do card" />
+                <img src="./cardsImage.png" alt="foto do card" />
             </div>
 
             <div class="content">
@@ -71,7 +78,7 @@
         </div>
         <div class="card">
             <div class="image">
-                <img src="./imagens/cardsImage.png" alt="foto do card" />
+                <img src="./cardsImage.png" alt="foto do card" />
             </div>
 
             <div class="content">
@@ -87,9 +94,8 @@
         </div>
         <div class="card">
             <div class="image">
-                <img src="./imagens/cardsImage.png" alt="foto do card" />
+                <img src="./cardsImage.png" alt="foto do card" />
             </div>
-
             <div class="content">
                 <p id="title text--medium">
                     Incentivando o descarte correto dos resíduos e potencializar a reciclagem
@@ -102,25 +108,27 @@
             </div>
         </div>
     </section>
-    <section id="formContact">
-        <div class="Contacts">
-            <div id="redeSociais">
-                <ul>
-                    <li>Segue a gente no:</li>
-                    <li><a href="#">LinkeDIn</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">WhatsApp</a></li>
-                </ul>
+    <footer class="rodape">
+        <section class="menuRodape">
+            <div class="logos">
+                <img src="./logoseita_fundotransparente.png" />
+                <p>Sociedade Estratégica de Inovação & Tecnologia</p>
             </div>
-            <div class="referencias">
-                <p id="textos">
-                    @Copyright-Antonio Roberto-2022
-                </p>
+            <div class="contatos">
+                <h5>Siga nos canais: </h5>
+                <img src="./youtube.png" />
+                <img src="./facebook.png" />
+                <img src="./instagram.png" />
+                <img src="./linkedin.png" />
+                <img src="./twitter.png" />
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="referencias">
+            <p>
+                @Copyright-Antonio Roberto-2022
+            </p>
+        </section>
+    </footer>
 </body>
 
 </html>
